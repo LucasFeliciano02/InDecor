@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InDecor</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>  
+    <!-- 1º Página - CONVITE E FORMULÁRIO  -->
+    <header id="event-description">
+        <div id="disclaimer">  <!-- Aviso, contexto do evento -->
+            <h2>InDecor</h2>
+            <p class="about-event">
+                An event to revolutionize your creativity
+            </p>
+            <p>Date of the event:</p>
+            <p class="event-date">Sunday, May 28th, Starting at 2pm</p>
+        </div>
+        <div id="subscription-form">   <!-- Formulário de inscrição -->
+            <p>Fill in the form to receive event details</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Type your name">
+                </div>         
+         
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Enter your best email">
+                </div>
+              
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" placeholder="whatsapp number">
+                </div>
+              
+                <div class="form-group">
+                    <label for="interest">main interest</label>
+                    <select name="interest">
+                        <option value="" disabled selected>select</option>  <!-- Coloca "Place holder" na primeira opção da comblebox -->
+                        <option value="apartment">Apartments</option>
+                        <option value="house">Houses</option>
+                        <option value="garden">gardens</option>
+                        <option value="other">Others</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="I want to apply">
+            </form>
+        </div> 
+    </header>
+    
+    <!-- 2º Página - Mostrando o conhecimento que a pessoa pode adquirir ao participar neste evento -->
+    <section id="key-benefits">
+        <h2>what will you learn:</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p>
+                    Learn something surprising that can make a difference in your productivity
+                </p>
+            </div>
+
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p>
+                    Learn something surprising that can make a difference in your productivity
+                </p>
+            </div>
+
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p>
+                    Learn something surprising that can make a difference in your productivity
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3º Página - Local do evento  -->
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="address-details">
+                <p>Event Street, 3452</p>
+                <p>Neighborhood x, center</p>
+                <p>Opening: 18h</p>
+            </div>
+        </div>
+
+        <div id="about-location">
+            <h3>prominent place</h3>
+            <p>
+                The event will be held in a prestigious location for Interior Design lovers, where we will have examples of various environments, both indoors and outdoors.    
+            </p>
+        </div>
+    </section>
+
+    <!-- 4º Página - Detalhes do evento, o que o usuario vai aprender  -->
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/hrz-3.jpg" alt="Sala decorada em tons claros">
+            <div class="detail-description">
+                <h3>Discover the environments you will learn to decorate</h3>
+            </div>
+        </div>
+
+        <div class="detail" id="detail-2">
+            <div class="detail-description">
+                <h3>Details</h3>
+                <ul>
+                    <li>positioning</li>
+                    <li>space utilization</li>
+                    <li>color combination</li>
+                    <li>Organization</li>
+                    <li>and much more...</li>
+                </ul>
+            </div>
+            <img src="img/hrz-4.jpg" alt="Sala de jantar decorada">
+        </div>
+
+        <div class="detail" id="detail-3">
+            <img src="img/hrz-5.jpg" alt="Sala decorada em tons escuros">
+            <div class="detail-description">
+                <h3>Objects</h3>
+                <ul>
+                    <li>chairs</li>
+                    <li>tables</li>
+                    <li>mirrors</li>
+                    <li>Curtains</li>
+                    <li>and much more...</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action section  -  Inscrição para o evento -->
+    <section id="cta">
+        <h3>Liked? sign up:</h3>
+        <a class="btn" href="#event-description">sign up to the event</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="footer">
+        <h3>InDecor</h3>
+        <p>The evolution of interior decoration</p>
+        <p><span>contact by email:</span><b> indecor@hotmail.com.br</b></p>
+        <p><span>or over the phone:</span><b> (55) 9 9999-9999</b></p>
+    </footer>
+</body>
+</html>
