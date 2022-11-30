@@ -1,11 +1,3 @@
-<h4 align="center"> 
-
-	🚧  Projeto InDecor 🚀 Em construção...  🚧
-</h4> 
-
-<hr> 
-
-
 <h4 align="center">
 
 <!--
